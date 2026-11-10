@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Atleta</title>
+    <script src="../js/post.js" defer></script>
+    <link rel="stylesheet" href="../css/adicionar.css">
+</head>
+<body>
+    <header>
+        <h1>Cadastro de atletas</h1>
+        <a href="../index.html">Início</a>
+    </header>
+    <main id="conteiner-cadastro">
+        <form id="formulario-cadastro">
+            <label for="title">Nome:</label>
+            <input type="text" name="title" id="title" minlength="3" maxlength="120" required>
+            <label for="esporte">Esporte:</label>
+            <input type="text" name="esporte" id="esporte" required>
+            <label for="pais">País:</label>
+            <input type="text" name="pais" id="pais" required>
+            <label for="idade">Idade:</label>
+            <input type="number" name="idade" id="idade" step="1" required>
+            <label for="conquistas">Conquistas:</label>
+            <input type="text" name="conquistas" id="conquistas" required>
+            <button type="submit">Cadastrar</button>
+        </form>
+        <p id="resposta"></p>
+    </main>
+</body>
+</html>

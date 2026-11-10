@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Consultar atletas</title>
+    <link rel="stylesheet" href="css/adicionar.css">
+    <script src="js/get.js" defer></script>
+</head>
+    <body>
+        <header>
+            <h1>Lista de atletas</h1>
+            <a href="pages/cadastro.html">Cadastrar Atleta</a>
+        </header>
+        <main>
+            <section id="conteiner-titulo-lista">
+                <h2 id="titulo-da-lista">Atletas cadastrados</h2>
+                <p id="resposta"></p>
+                <ul id="lista-de-atletas"></ul>
+            </section> 
+        </main>
+        <template id="modelo-atleta">
+                <section class="atleta">
+                    <section class="card-capa">
+                        <img src="" alt="">
+                    </section>
+                    <section class="card-conteudo">
+                        <h3 class="nome"></h3>
+                        <p><strong>Esporte: </strong><span class="esporte"></span></p>
+                        <p><strong>Idade: </strong><span class="idade"></span></p>
+                        <p><strong>Conquistas: </strong><span class="conquistas"></span></p>
+                    </section>
+                </section>
+        </template>
+    </body>
+</html>
